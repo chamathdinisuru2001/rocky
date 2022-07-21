@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Vehicle">Vehicles</a></li>
+                <li><a href="#kgfpics">KGF</a></li>
+            </ul>
+        </nav>
+    </header>
+     <div class="content" id="home">
+        <img class="dp" src="Rocky dp.jpg">
+        <div class="para">
+            <h1>"Welcome to Rocky.."</h1>
+            <p>"He is the biggest criminal<br>He is the biggest businessman<br>He is the CEO of India"</p>
+        </div>
+    </div>
+    <p class="tableDetail" id="About">Who is Rocky</p>
+    <table>
+        <tr>
+            <td>Full Name:</td>
+            <td>Raja Krishnappa Bairya</td>
+        </tr>
+        <tr>
+            <td>Other Name:</td>
+            <td>Rocky Bhai</td>
+        </tr>
+        <tr>
+            <td>Nationality:</td>
+            <td>Indian</td>
+        </tr>
+        <tr>
+            <td>Date of Birth:</td>
+            <td>08/01/1951</td>
+        </tr>
+        <tr>
+            <td>Place:</td>
+            <td>Bairya,<br>
+                Mysore District,<br>
+                Karnataka State,<br>
+                India
+            </td>
+        </tr>
+        <tr>
+            <td>Mother:</td>
+            <td>Shanthi</td>
+        </tr>
+        <tr>
+            <td>Father:</td>
+            <td>Krishnappa Bairya</td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td>
+                <p class="address">"The post arrived not by looking at the address on the letters!<br>
+                    It is due to the landmark that is on the address.<br>
+                    For this landmark, forget the pin code... you won't even need a stamp!"</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Wife:</td>
+            <td>Reena</td>
+        </tr>
+        <tr>
+            <td>Occupation:</td>
+            <td>Businessman</td>
+        </tr>
+        <tr>
+            <td>Villains who have faced</td>
+            <td>
+                <ul>
+                    <li>Dilavar</li>
+                    <li>Garuda</li>
+                    <li>Adheera</li>
+                    <li>Ramika Sen</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    
+
+    <div class="row" id="Vehicle">
+        <p class="imageDetail">Rocky's Vehicles</p>
+        <div class="column">
+            <img src="bike.jpg" alt="Bike" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="mustang2.jpg" alt="Mustang" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="rollsroyce.jpg" alt="Rolls-Royce" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="benz.jpg" alt="Mercedese-Benze" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="helicopter.jpg" alt="Helicopter" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Ship.jpg" alt="Ship" onclick="myFunction(this);">
+        </div>
+    </div>
+
+
+    <div class="container modal">
+
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+
+        <img id="expandedImg" style="width:100%">
+
+        <div id="imgtext"></div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+    <div class="row" id="kgfpics">
+        <p class="kgf">KGF</p>
+        <div class="column">
+            <img src="kgf1.jpg" alt="" onclick="myFunction2(this);">
+        </div>
+        <div class="column">
+            <img src="kgf2.jpg" alt="" onclick="myFunction2(this);">
+        </div>
+        <div class="column">
+            <img src="kgf3.jpg" alt="" onclick="myFunction2(this);">
+        </div>
+        <div class="column">
+            <img src="kgf4.jpg" alt="" onclick="myFunction2(this);">
+        </div>
+        <div class="column">
+            <img src="kgf5.jpg" alt="" onclick="myFunction2(this);">
+        </div>
+        <div class="column">
+            <img src="kgf6.jpg" alt="" onclick="myFunction2(this);">
+        </div>
+    </div>
+    <div class="container modal">
+
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+
+        <img id="expandedImg2" style="width:100%">
+
+        <div id="imgtext2"></div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+    <footer>
+        <p>&copy;2022. Kolar Gold Field</p>
+     </footer>
+</body>
+
+</html>
