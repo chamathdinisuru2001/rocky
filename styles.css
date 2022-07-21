@@ -83,6 +83,15 @@ body {
     margin-right: 50px;
     text-align: center;
 }
+.images{
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+}
+.images img{
+    width: 696px;
+    padding: 7px;
+}
 .dp{
     float: right;
     width: 350px;
