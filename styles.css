@@ -141,7 +141,6 @@ td{
     cursor: pointer;
     opacity: 0.9;
     width: 600px;
-
   }
   
   .column img:hover {
@@ -203,3 +202,6 @@ footer{
     width: 100%;
 }
 
+.test{
+    color: white;
+}
